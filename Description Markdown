@@ -1,0 +1,10 @@
+Chalanges for me and how i Overcome:
+
+Challenge 1: Notification Channel Compatibility
+Android 8.0 (API level 26) and above require notification channels to be set up. Ensure that you properly create and assign a notification channel for your notifications to ensure compatibility with newer Android versions.
+
+Challenge 2: BroadcastReceiver Registration
+Registering your BroadcastReceiver in the AndroidManifest.xml file can be tricky. Make sure you specify the correct action and intent-filter in the manifest to ensure that the BroadcastReceiver is triggered when the intended action occurs.
+
+Challenge 3: Deep Linking Implementation
+Implementing deep linking within your app involves setting up intent filters and handling the deep link data appropriately. Ensure that you correctly define the intent filter in the manifest and parse the deep link data in the appropriate activity.
